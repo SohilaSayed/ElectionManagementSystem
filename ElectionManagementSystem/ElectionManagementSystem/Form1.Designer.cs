@@ -75,11 +75,11 @@ namespace ElectionManagementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(60, 234);
+            this.label4.Location = new System.Drawing.Point(57, 232);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 17);
+            this.label4.Size = new System.Drawing.Size(64, 17);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Sex :";
+            this.label4.Text = "Gender :";
             // 
             // label6
             // 
@@ -143,10 +143,11 @@ namespace ElectionManagementSystem
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 24);
             this.comboBox1.TabIndex = 11;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(155, 358);
+            this.button1.Location = new System.Drawing.Point(160, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 38);
             this.button1.TabIndex = 15;

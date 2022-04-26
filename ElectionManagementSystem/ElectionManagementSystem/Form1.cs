@@ -58,13 +58,18 @@ namespace ElectionManagementSystem
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
             cmd.CommandText = "insert into voters values(:candidateId,:voterId , :voterName,:voterFamilyName,:sex)";
-            cmd.Parameters.Add("candidateId", comboBox1.SelectedItem);
+            cmd.Parameters.Add("candidateId", comboBox1.SelectedItem.ToString());
             cmd.Parameters.Add("voterId", textBox1.Text);
             cmd.Parameters.Add("voterName",textBox2.Text);
             cmd.Parameters.Add("voterFamilyName",textBox3.Text);
             cmd.Parameters.Add("sex",gender);
+            OracleCommand c = new OracleCommand();
+            c.CommandText = "update candidates set numberOfVoters = numberOfVoters+1  ";
+            //c.Parameters.Add("candidateId", comboBox1.SelectedItem);
+            c.ExecuteNonQuery();
             cmd.ExecuteNonQuery();
-            MessageBox.Show("Saved");          
+            MessageBox.Show("Saved");
+            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -75,6 +80,11 @@ namespace ElectionManagementSystem
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             gender = "Female";
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
