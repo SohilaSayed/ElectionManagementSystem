@@ -20,6 +20,7 @@ candidateName varchar (20),
 candidateFamilyName varchar (20),
 sex varchar (6),
 birthDate Date,
+numberOfVoters number(3)
 );
 
 Create table voters
@@ -36,6 +37,12 @@ Create table nominating
 candidateId number(3) references candidates(candidateId),
 nominateDate Date,
 numberOfVotes number(3)
+);
+
+Create table candidateVoter
+(
+candidateId number(3) references candidates(candidateId),
+voterId number(14) references voters(voterId)
 );
 
 insert into nominating values
