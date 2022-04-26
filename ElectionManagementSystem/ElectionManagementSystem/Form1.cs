@@ -57,21 +57,14 @@ namespace ElectionManagementSystem
         {
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            //cmd.CommandText = "voterInformation";
-            //cmd.CommandType = CommandType.StoredProcedure;
             cmd.CommandText = "insert into voters values(:candidateId,:voterId , :voterName,:voterFamilyName,:sex)";
+            cmd.Parameters.Add("candidateId", comboBox1.SelectedItem);
             cmd.Parameters.Add("voterId", textBox1.Text);
             cmd.Parameters.Add("voterName",textBox2.Text);
             cmd.Parameters.Add("voterFamilyName",textBox3.Text);
             cmd.Parameters.Add("sex",gender);
-            //cmd.Parameters.Add("birthDate", dateTimePicker1.ToString());
-            cmd.Parameters.Add("candidateId",comboBox1.SelectedItem);
-            int r = cmd.ExecuteNonQuery();
-            if(r != -1)
-            {
-                MessageBox.Show("Saved");
-            }
-            //MessageBox.Show("Saved");
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Saved");          
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
