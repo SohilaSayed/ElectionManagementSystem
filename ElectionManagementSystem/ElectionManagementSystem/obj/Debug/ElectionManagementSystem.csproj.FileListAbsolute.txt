@@ -10,3 +10,4 @@ C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManage
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
