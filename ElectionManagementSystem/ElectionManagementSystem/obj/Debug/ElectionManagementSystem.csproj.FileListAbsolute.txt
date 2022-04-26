@@ -11,3 +11,15 @@ C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManage
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb

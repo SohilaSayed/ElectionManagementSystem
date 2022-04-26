@@ -13,7 +13,7 @@ namespace ElectionManagementSystem
 {
     public partial class Form1 : Form
     {
-        string ordb = "Data Source =ORCL; User Id=scott;Password=tiger;";
+        string ordb = "Data Source =ORCL; User Id=scott;Password=scott;";
         OracleConnection conn;
         string gender;
         public Form1()
@@ -64,8 +64,9 @@ namespace ElectionManagementSystem
             cmd.Parameters.Add("voterFamilyName",textBox3.Text);
             cmd.Parameters.Add("sex",gender);
             OracleCommand c = new OracleCommand();
-            c.CommandText = "update candidates set numberOfVoters = numberOfVoters+1  ";
-            //c.Parameters.Add("candidateId", comboBox1.SelectedItem);
+            c.Connection = conn;
+            c.CommandText = "update candidates set numberOfVoters = numberofvoters + 1 where candidateid = :x";
+            c.Parameters.Add("candidateId", comboBox1.SelectedItem.ToString());
             c.ExecuteNonQuery();
             cmd.ExecuteNonQuery();
             MessageBox.Show("Saved");
