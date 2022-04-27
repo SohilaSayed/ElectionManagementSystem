@@ -19,14 +19,12 @@ namespace ElectionManagementSystem
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-             new Form1().Show();
-           
-            this.Hide();
+             
         }
     }
 }
