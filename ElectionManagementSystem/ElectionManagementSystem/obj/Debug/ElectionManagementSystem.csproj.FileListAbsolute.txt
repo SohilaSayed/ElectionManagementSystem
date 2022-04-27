@@ -35,3 +35,15 @@ C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementS
 C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
 C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
+C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
