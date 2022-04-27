@@ -138,6 +138,7 @@ namespace ElectionManagementSystem
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(146, 286);
             this.comboBox1.Name = "comboBox1";
@@ -147,18 +148,21 @@ namespace ElectionManagementSystem
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button1.Location = new System.Drawing.Point(160, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 38);
             this.button1.TabIndex = 15;
             this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(481, 425);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
