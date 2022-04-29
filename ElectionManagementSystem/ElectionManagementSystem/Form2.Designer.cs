@@ -40,7 +40,7 @@ namespace ElectionManagementSystem
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(69, 165);
+            this.label1.Location = new System.Drawing.Point(71, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 20);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace ElectionManagementSystem
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(73, 34);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Show";
+            this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -69,10 +69,10 @@ namespace ElectionManagementSystem
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(51, 210);
+            this.textBox1.Location = new System.Drawing.Point(27, 97);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 22);
-            this.textBox1.TabIndex = 6;
+            this.textBox1.Size = new System.Drawing.Size(198, 22);
+            this.textBox1.TabIndex = 11;
             // 
             // Form2
             // 
@@ -84,7 +84,6 @@ namespace ElectionManagementSystem
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
