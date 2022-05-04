@@ -1,19 +1,18 @@
 
 Create table governorate
 (
-governorateId number(3) ,
-governorateName varchar (20) PRIMARY KEY
+governorateId number(3) PRIMARY KEY,
+governorateName varchar (20),
 );
 
 Create table city
 (
-governorateName varchar (20) references governorate(governorateName),
-cityName varchar (20) PRIMARY KEY
+governorateId number(3) references governorate(governorateId),
+cityId number(3) PRIMARY KEY,
+cityName varchar (20),
+numberOfMember number(3)
 );
-alter table candidates
-add (governorateName varchar (20) references governorate(governorateName));
-alter table candidates
-add (cityName varchar (20) references city(cityName));
+
 Create table candidates
 (
 candidateId number(3) PRIMARY KEY ,
@@ -23,6 +22,7 @@ sex varchar (6),
 birthDate Date,
 numberOfVoters number(3)
 );
+
 Create table voters
 (
 candidateId number(3) references candidates(candidateId),
@@ -38,7 +38,6 @@ candidateId number(3) references candidates(candidateId),
 nominateDate Date,
 numberOfVotes number(3)
 );
-drop table nominating;
 
 Create table candidateVoter
 (
@@ -94,57 +93,57 @@ Insert into governorate values
 (5,'Qena');
 
 insert into city values
-('Cairo','Misr Elgededa');
+(1,11,'Misr Elgededa',5);
 insert into city values
-('Cairo','Ain Shams');
+(1,21,'Ain Shams',3);
 insert into city values
-('Cairo','Abdeen');
+(1,31,'Abdeen',7);
 insert into city values
-('Cairo','Shoubra');
+(1,41,'Shoubra',8);
 insert into city values
-('Cairo','Madient Nasr');
+(1,51,'Madient Nasr',6);
 
  insert into city values
-('Alexandria','Smouha');
+(2,12,'Smouha',7);
 insert into city values
-('Alexandria','Sidi Beshr');
+(2,22,'Sidi Beshr',5);
 insert into city values
-('Alexandria','Sidi Gaber');
+(2,32,'Sidi Gaber',3);
 insert into city values
-('Alexandria','Montaza');
+(2,42,'Montaza',4);
 insert into city values
-('Alexandria','Ras Elten');
+(2,52,'Ras Elten',6);
 
  insert into city values
-('Giza','Imbaba');
+(3,13,'Imbaba',4);
 insert into city values
-('Giza','Dokki');
+(3,23,'Dokki',5);
 insert into city values
-('Giza','Elagouza');
+(3,33,'Elagouza',3);
 insert into city values
-('Giza','Ben Elsrayat');
+(3,43,'Ben Elsrayat',2);
 insert into city values
-('Giza','Haram');
+(3,53,'Haram',6);
 
  insert into city values
-('Qalyubia','Tokh');
+(4,14,'Tokh',3);
 insert into city values
-('Qalyubia','Qalyub');
+(4,24,'Qalyub',2);
 insert into city values
-('Qalyubia','Elkhanka');
+(4,34,'Elkhanka',4);
 insert into city values
-('Qalyubia','Shubra Elkhema');
+(4,44,'Shubra Elkhema',6);
 insert into city values
-('Qalyubia','Shebin Elknater');
+(4,54,'Shebin Elknater',5);
 
  insert into city values
-('Qena','Qus');
+(5,15,'Qus',3);
 insert into city values
-('Qena','Nage Hmady');
+(5,25,'Nage Hmady',2);
 insert into city values
-('Qena','Deshna');
+(5,35,'Deshna',5);
 insert into city values
-('Qena','Armant');
+(5,45,'Armant',4);
 insert into city values
-('Qena','Abnud');
+(5,55,'Abnud',6);
 Commit;
