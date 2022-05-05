@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ElectionManagementSystem",
+    "\\ElectionManagementSystem\\ElectionManagementSystem"
   ],
-  "SelectedNode": "\\ElectionManagementSystem.sln",
+  "SelectedNode": "\\ElectionManagementSystem\\ElectionManagementSystem\\Form2.cs",
   "PreviewInSolutionExplorer": false
 }
