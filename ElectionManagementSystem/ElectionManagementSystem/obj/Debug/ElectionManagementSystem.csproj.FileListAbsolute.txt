@@ -50,3 +50,4 @@ C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\Ele
 C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources

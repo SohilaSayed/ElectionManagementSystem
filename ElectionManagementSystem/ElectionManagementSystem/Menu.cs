@@ -59,5 +59,16 @@ namespace ElectionManagementSystem
         {
             this.Close();
         }
+
+        private void genderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void winnersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            winnerForm f = new winnerForm();
+            f.Show();
+        }
     }
 }

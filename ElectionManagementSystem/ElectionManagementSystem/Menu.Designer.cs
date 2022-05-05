@@ -41,6 +41,8 @@ namespace ElectionManagementSystem
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.genderBiasedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.winnersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -73,21 +75,23 @@ namespace ElectionManagementSystem
             // voterInformationToolStripMenuItem
             // 
             this.voterInformationToolStripMenuItem.Name = "voterInformationToolStripMenuItem";
-            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.voterInformationToolStripMenuItem.Text = "Enter Information";
             this.voterInformationToolStripMenuItem.Click += new System.EventHandler(this.voterInformationToolStripMenuItem_Click);
             // 
             // voterInformationToolStripMenuItem1
             // 
             this.voterInformationToolStripMenuItem1.Name = "voterInformationToolStripMenuItem1";
-            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(209, 26);
+            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.voterInformationToolStripMenuItem1.Text = "Voter Information";
             this.voterInformationToolStripMenuItem1.Click += new System.EventHandler(this.voterInformationToolStripMenuItem1_Click);
             // 
             // candidatesToolStripMenuItem
             // 
             this.candidatesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.candidatesInformationToolStripMenuItem});
+            this.candidatesInformationToolStripMenuItem,
+            this.genderBiasedToolStripMenuItem,
+            this.winnersToolStripMenuItem});
             this.candidatesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.candidatesToolStripMenuItem.Name = "candidatesToolStripMenuItem";
             this.candidatesToolStripMenuItem.Size = new System.Drawing.Size(101, 25);
@@ -96,7 +100,7 @@ namespace ElectionManagementSystem
             // candidatesInformationToolStripMenuItem
             // 
             this.candidatesInformationToolStripMenuItem.Name = "candidatesInformationToolStripMenuItem";
-            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
+            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.candidatesInformationToolStripMenuItem.Text = "Candidates Information";
             this.candidatesInformationToolStripMenuItem.Click += new System.EventHandler(this.candidatesInformationToolStripMenuItem_Click);
             // 
@@ -112,7 +116,7 @@ namespace ElectionManagementSystem
             // searchByGovernorateToolStripMenuItem
             // 
             this.searchByGovernorateToolStripMenuItem.Name = "searchByGovernorateToolStripMenuItem";
-            this.searchByGovernorateToolStripMenuItem.Size = new System.Drawing.Size(242, 26);
+            this.searchByGovernorateToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.searchByGovernorateToolStripMenuItem.Text = "Search by Governorate";
             this.searchByGovernorateToolStripMenuItem.Click += new System.EventHandler(this.searchByGovernorateToolStripMenuItem_Click);
             // 
@@ -150,6 +154,19 @@ namespace ElectionManagementSystem
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // genderBiasedToolStripMenuItem
+            // 
+            this.genderBiasedToolStripMenuItem.Name = "genderBiasedToolStripMenuItem";
+            this.genderBiasedToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.genderBiasedToolStripMenuItem.Text = "Gender Biased";
+            // 
+            // winnersToolStripMenuItem
+            // 
+            this.winnersToolStripMenuItem.Name = "winnersToolStripMenuItem";
+            this.winnersToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.winnersToolStripMenuItem.Text = "Winners";
+            this.winnersToolStripMenuItem.Click += new System.EventHandler(this.winnersToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -183,5 +200,7 @@ namespace ElectionManagementSystem
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem voterInformationToolStripMenuItem1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem genderBiasedToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem winnersToolStripMenuItem;
     }
 }
