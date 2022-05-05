@@ -14,7 +14,11 @@ namespace ElectionManagementSystem
 {
     public partial class Form2 : Form
     {
-       
+
+        OracleDataAdapter adapter;
+        OracleCommandBuilder builder;
+        DataSet ds;
+
         public Form2()
         {
             InitializeComponent();
@@ -24,8 +28,7 @@ namespace ElectionManagementSystem
         {
 
 
-           
-            
+
 
         }
 
