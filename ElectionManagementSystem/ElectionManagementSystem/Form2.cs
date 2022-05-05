@@ -17,7 +17,7 @@ namespace ElectionManagementSystem
 
         OracleDataAdapter adapter;
         OracleCommandBuilder builder;
-        DataSet ds;
+        DataSet ds = new DataSet();
 
         public Form2()
         {
@@ -40,7 +40,7 @@ namespace ElectionManagementSystem
             string cmdstr = "Select candidateId,candidateName,candidateFamilyName,numberOfVoters,governorateName , cityName from candidates s where s.governorateName =:n ";
             adapter = new OracleDataAdapter(cmdstr, ordb);
             adapter.SelectCommand.Parameters.Add("n", textBox1.Text);
-            DataSet ds = new DataSet();
+           
             adapter.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
 
@@ -59,15 +59,23 @@ namespace ElectionManagementSystem
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            builder = new OracleCommandBuilder(adapter);
-            adapter.Update(ds.Tables[0]);
-        }
+       
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            builder = new OracleCommandBuilder(adapter);
+            adapter.Update(ds.Tables[0]);
+            MessageBox.Show("Updated");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
