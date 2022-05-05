@@ -57,7 +57,8 @@ Insert into governorate values
 (5,'Qena');
 
 
-INSERT INTO candidates values
+INSERT INTO candidates (candidateId, candidatename, candidatefamilyname, sex, governorateid, birthdate, numberofvoters)
+values
 (101,'Sohila','Sayed','Female',1,'18-Jun-2001',0);
 INSERT INTO candidates values
 (102,'Samira','Yahia','Female',1,'17-Sep-2001',0);
