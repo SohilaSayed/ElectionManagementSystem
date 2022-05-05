@@ -153,4 +153,5 @@ insert into city values
 (5,45,'Armant',4);
 insert into city values
 (5,55,'Abnud',6);
+
 Commit;

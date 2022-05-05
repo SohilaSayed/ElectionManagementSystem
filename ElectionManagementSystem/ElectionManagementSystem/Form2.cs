@@ -14,7 +14,11 @@ namespace ElectionManagementSystem
 {
     public partial class Form2 : Form
     {
-       
+
+        OracleDataAdapter adapter;
+        OracleCommandBuilder builder;
+        DataSet ds;
+
         public Form2()
         {
             InitializeComponent();
@@ -24,13 +28,30 @@ namespace ElectionManagementSystem
         {
 
 
-           
-            
+
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            string ordb = "Data source=orcl;User Id=scott;Password=tiger;";
+
+            string cmdstr = "Select candidateId,candidateName,candidateFamilyName,numberOfVoters,governorateName from candidates s,governorate g where s.governorateId = g.governorateId and g.governorateName =:n ";
+            adapter = new OracleDataAdapter(cmdstr, ordb);
+            adapter.SelectCommand.Parameters.Add("n", textBox1.Text);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+
+
+        }
+
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
