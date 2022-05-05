@@ -32,14 +32,15 @@ namespace ElectionManagementSystem
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.votersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.candidatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.governorateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.voterInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.voterInformationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.candidatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.candidatesInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.governorateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchByGovernorateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.voterInformationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +54,7 @@ namespace ElectionManagementSystem
             this.governorateToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(699, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(699, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -63,33 +64,34 @@ namespace ElectionManagementSystem
             this.votersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voterInformationToolStripMenuItem,
             this.voterInformationToolStripMenuItem1});
+            this.votersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.votersToolStripMenuItem.Name = "votersToolStripMenuItem";
-            this.votersToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.votersToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
             this.votersToolStripMenuItem.Text = "Voters";
             this.votersToolStripMenuItem.Click += new System.EventHandler(this.votersToolStripMenuItem_Click);
+            // 
+            // voterInformationToolStripMenuItem
+            // 
+            this.voterInformationToolStripMenuItem.Name = "voterInformationToolStripMenuItem";
+            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(209, 26);
+            this.voterInformationToolStripMenuItem.Text = "Enter Information";
+            this.voterInformationToolStripMenuItem.Click += new System.EventHandler(this.voterInformationToolStripMenuItem_Click);
+            // 
+            // voterInformationToolStripMenuItem1
+            // 
+            this.voterInformationToolStripMenuItem1.Name = "voterInformationToolStripMenuItem1";
+            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(209, 26);
+            this.voterInformationToolStripMenuItem1.Text = "Voter Information";
+            this.voterInformationToolStripMenuItem1.Click += new System.EventHandler(this.voterInformationToolStripMenuItem1_Click);
             // 
             // candidatesToolStripMenuItem
             // 
             this.candidatesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.candidatesInformationToolStripMenuItem});
+            this.candidatesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
             this.candidatesToolStripMenuItem.Name = "candidatesToolStripMenuItem";
-            this.candidatesToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
+            this.candidatesToolStripMenuItem.Size = new System.Drawing.Size(101, 25);
             this.candidatesToolStripMenuItem.Text = "Candidates";
-            // 
-            // governorateToolStripMenuItem
-            // 
-            this.governorateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.searchByGovernorateToolStripMenuItem});
-            this.governorateToolStripMenuItem.Name = "governorateToolStripMenuItem";
-            this.governorateToolStripMenuItem.Size = new System.Drawing.Size(105, 24);
-            this.governorateToolStripMenuItem.Text = "Governorate";
-            // 
-            // voterInformationToolStripMenuItem
-            // 
-            this.voterInformationToolStripMenuItem.Name = "voterInformationToolStripMenuItem";
-            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.voterInformationToolStripMenuItem.Text = "Enter Information";
-            this.voterInformationToolStripMenuItem.Click += new System.EventHandler(this.voterInformationToolStripMenuItem_Click);
             // 
             // candidatesInformationToolStripMenuItem
             // 
@@ -97,6 +99,15 @@ namespace ElectionManagementSystem
             this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.candidatesInformationToolStripMenuItem.Text = "Candidates Information";
             this.candidatesInformationToolStripMenuItem.Click += new System.EventHandler(this.candidatesInformationToolStripMenuItem_Click);
+            // 
+            // governorateToolStripMenuItem
+            // 
+            this.governorateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.searchByGovernorateToolStripMenuItem});
+            this.governorateToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.governorateToolStripMenuItem.Name = "governorateToolStripMenuItem";
+            this.governorateToolStripMenuItem.Size = new System.Drawing.Size(111, 25);
+            this.governorateToolStripMenuItem.Text = "Governorate";
             // 
             // searchByGovernorateToolStripMenuItem
             // 
@@ -126,18 +137,25 @@ namespace ElectionManagementSystem
             this.label1.TabIndex = 4;
             this.label1.Text = "Welcome to Election Management System";
             // 
-            // voterInformationToolStripMenuItem1
+            // button2
             // 
-            this.voterInformationToolStripMenuItem1.Name = "voterInformationToolStripMenuItem1";
-            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.voterInformationToolStripMenuItem1.Text = "Voter Information";
-            this.voterInformationToolStripMenuItem1.Click += new System.EventHandler(this.voterInformationToolStripMenuItem1_Click);
+            this.button2.BackColor = System.Drawing.Color.Salmon;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button2.Location = new System.Drawing.Point(593, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(106, 33);
+            this.button2.TabIndex = 32;
+            this.button2.Text = "Exit";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 458);
+            this.ClientSize = new System.Drawing.Size(699, 461);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
@@ -164,5 +182,6 @@ namespace ElectionManagementSystem
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem voterInformationToolStripMenuItem1;
+        private System.Windows.Forms.Button button2;
     }
 }

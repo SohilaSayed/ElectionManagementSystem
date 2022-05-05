@@ -54,5 +54,10 @@ namespace ElectionManagementSystem
             Form4 f = new Form4();
             f.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

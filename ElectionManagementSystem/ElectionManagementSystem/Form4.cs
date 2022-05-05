@@ -65,8 +65,7 @@ namespace ElectionManagementSystem
         {
             OracleCommand cc = new OracleCommand();
             cc.Connection = conn;
-            cc.CommandText = "update voters set candidateId=:candidateId,voterName=:voterName,voterFamilyName =:voterFamilyName , sex=:sex where voterId =:id";
-            cc.Parameters.Add("candidateId", textBox4.Text);
+            cc.CommandText = "update voters set voterName=:voterName,voterFamilyName =:voterFamilyName , sex=:sex where voterId =:id";
             cc.Parameters.Add("voterName", textBox1.Text);
             cc.Parameters.Add("voterFamilyName", textBox2.Text);
             cc.Parameters.Add("sex", textBox3.Text);
