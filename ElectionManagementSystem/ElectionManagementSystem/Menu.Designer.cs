@@ -36,13 +36,13 @@ namespace ElectionManagementSystem
             this.voterInformationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.candidatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.candidatesInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.genderBiasedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.winnersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.governorateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchByGovernorateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.genderBiasedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.winnersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,7 +56,7 @@ namespace ElectionManagementSystem
             this.governorateToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(699, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(699, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -66,9 +66,9 @@ namespace ElectionManagementSystem
             this.votersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voterInformationToolStripMenuItem,
             this.voterInformationToolStripMenuItem1});
-            this.votersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.votersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.votersToolStripMenuItem.Name = "votersToolStripMenuItem";
-            this.votersToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
+            this.votersToolStripMenuItem.Size = new System.Drawing.Size(62, 26);
             this.votersToolStripMenuItem.Text = "Voters";
             this.votersToolStripMenuItem.Click += new System.EventHandler(this.votersToolStripMenuItem_Click);
             // 
@@ -92,41 +92,54 @@ namespace ElectionManagementSystem
             this.candidatesInformationToolStripMenuItem,
             this.genderBiasedToolStripMenuItem,
             this.winnersToolStripMenuItem});
-            this.candidatesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.candidatesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.candidatesToolStripMenuItem.Name = "candidatesToolStripMenuItem";
-            this.candidatesToolStripMenuItem.Size = new System.Drawing.Size(101, 25);
+            this.candidatesToolStripMenuItem.Size = new System.Drawing.Size(91, 26);
             this.candidatesToolStripMenuItem.Text = "Candidates";
             // 
             // candidatesInformationToolStripMenuItem
             // 
             this.candidatesInformationToolStripMenuItem.Name = "candidatesInformationToolStripMenuItem";
-            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
+            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
             this.candidatesInformationToolStripMenuItem.Text = "Candidates Information";
             this.candidatesInformationToolStripMenuItem.Click += new System.EventHandler(this.candidatesInformationToolStripMenuItem_Click);
+            // 
+            // genderBiasedToolStripMenuItem
+            // 
+            this.genderBiasedToolStripMenuItem.Name = "genderBiasedToolStripMenuItem";
+            this.genderBiasedToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
+            this.genderBiasedToolStripMenuItem.Text = "Gender Biased";
+            // 
+            // winnersToolStripMenuItem
+            // 
+            this.winnersToolStripMenuItem.Name = "winnersToolStripMenuItem";
+            this.winnersToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
+            this.winnersToolStripMenuItem.Text = "Winners";
+            this.winnersToolStripMenuItem.Click += new System.EventHandler(this.winnersToolStripMenuItem_Click);
             // 
             // governorateToolStripMenuItem
             // 
             this.governorateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchByGovernorateToolStripMenuItem});
-            this.governorateToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.5F);
+            this.governorateToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.governorateToolStripMenuItem.Name = "governorateToolStripMenuItem";
-            this.governorateToolStripMenuItem.Size = new System.Drawing.Size(111, 25);
+            this.governorateToolStripMenuItem.Size = new System.Drawing.Size(100, 26);
             this.governorateToolStripMenuItem.Text = "Governorate";
             // 
             // searchByGovernorateToolStripMenuItem
             // 
             this.searchByGovernorateToolStripMenuItem.Name = "searchByGovernorateToolStripMenuItem";
-            this.searchByGovernorateToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
+            this.searchByGovernorateToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.searchByGovernorateToolStripMenuItem.Text = "Search by Governorate";
             this.searchByGovernorateToolStripMenuItem.Click += new System.EventHandler(this.searchByGovernorateToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 31);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(726, 429);
+            this.pictureBox1.Size = new System.Drawing.Size(726, 430);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -144,7 +157,7 @@ namespace ElectionManagementSystem
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Salmon;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.Location = new System.Drawing.Point(593, 0);
             this.button2.Name = "button2";
@@ -153,19 +166,6 @@ namespace ElectionManagementSystem
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // genderBiasedToolStripMenuItem
-            // 
-            this.genderBiasedToolStripMenuItem.Name = "genderBiasedToolStripMenuItem";
-            this.genderBiasedToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.genderBiasedToolStripMenuItem.Text = "Gender Biased";
-            // 
-            // winnersToolStripMenuItem
-            // 
-            this.winnersToolStripMenuItem.Name = "winnersToolStripMenuItem";
-            this.winnersToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
-            this.winnersToolStripMenuItem.Text = "Winners";
-            this.winnersToolStripMenuItem.Click += new System.EventHandler(this.winnersToolStripMenuItem_Click);
             // 
             // Menu
             // 

@@ -15,7 +15,7 @@ namespace ElectionManagementSystem
     
     public partial class winnerForm : Form
     {
-        string ordb = "Data Source =ORCL; User Id=scott;Password=scott;";
+        string ordb = "Data Source =ORCL; User Id=scott;Password=tiger;";
         OracleConnection conn;
         public winnerForm()
         {
