@@ -18,10 +18,10 @@ namespace ElectionManagementSystem
         string gender;
         public Form1()
         {
-            
+
             InitializeComponent();
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
             conn = new OracleConnection(ordb);
@@ -60,9 +60,9 @@ namespace ElectionManagementSystem
             cmd.CommandText = "insert into voters values(:candidateId,:voterId , :voterName,:voterFamilyName,:sex)";
             cmd.Parameters.Add("candidateId", comboBox1.SelectedItem.ToString());
             cmd.Parameters.Add("voterId", textBox1.Text);
-            cmd.Parameters.Add("voterName",textBox2.Text);
-            cmd.Parameters.Add("voterFamilyName",textBox3.Text);
-            cmd.Parameters.Add("sex",gender);
+            cmd.Parameters.Add("voterName", textBox2.Text);
+            cmd.Parameters.Add("voterFamilyName", textBox3.Text);
+            cmd.Parameters.Add("sex", gender);
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
             c.CommandText = "update candidates set numberOfVoters = numberofvoters + 1 where candidateid = :x";
@@ -70,13 +70,13 @@ namespace ElectionManagementSystem
             c.ExecuteNonQuery();
             cmd.ExecuteNonQuery();
             MessageBox.Show("Saved");
-            
+            this.Hide();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             gender = "Male";
-            
+
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -87,6 +87,11 @@ namespace ElectionManagementSystem
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

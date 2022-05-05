@@ -37,7 +37,7 @@ namespace ElectionManagementSystem
 
             string ordb = "Data source=orcl;User Id=scott;Password=tiger;";
 
-            string cmdstr = "Select candidateId,candidateName,candidateFamilyName,numberOfVoters,governorateName from candidates s,governorate g where s.governorateId = g.governorateId and g.governorateName =:n ";
+            string cmdstr = "Select candidateId,candidateName,candidateFamilyName,numberOfVoters,governorateName , cityName from candidates s where s.governorateName =:n ";
             adapter = new OracleDataAdapter(cmdstr, ordb);
             adapter.SelectCommand.Parameters.Add("n", textBox1.Text);
             DataSet ds = new DataSet();
@@ -55,6 +55,17 @@ namespace ElectionManagementSystem
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            builder = new OracleCommandBuilder(adapter);
+            adapter.Update(ds.Tables[0]);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
