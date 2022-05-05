@@ -35,9 +35,9 @@ namespace ElectionManagementSystem
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string ordb = "Data source=orcl;User Id=scott;Password=tiger;";
+            string ordb = "Data source=orcl;User Id=scott;Password=scott;";
 
-            string cmdstr = "Select candidateId,candidateName,candidateFamilyName,numberOfVoters,governorateName , cityName from candidates s where s.governorateName =:n ";
+            string cmdstr = "Select candidateId,candidateName,candidateFamilyName,governorateName , cityName from candidates s where s.governorateName =:n ";
             adapter = new OracleDataAdapter(cmdstr, ordb);
             adapter.SelectCommand.Parameters.Add("n", textBox1.Text);
            
