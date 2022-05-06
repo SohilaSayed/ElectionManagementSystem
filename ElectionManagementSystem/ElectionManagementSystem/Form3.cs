@@ -40,9 +40,17 @@ namespace ElectionManagementSystem
         {
             if (textBox5.Text == "admin" && textBox6.Text == "admin")
             {
+                MessageBox.Show(" Login Successful!");
                 Form2 f = new Form2();
                 f.Show();
                 this.Hide();
+            }
+            else {
+                MessageBox.Show("Login Failed!");
+                textBox5.Clear();
+                textBox6.Clear();
+               
+                textBox5.Focus();
             }
 
         }
