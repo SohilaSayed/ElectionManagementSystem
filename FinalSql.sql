@@ -3,7 +3,7 @@ drop table voters;
 drop table candidates;
 drop table city;
 drop table governorate;
-
+drop table nominating;
 
 
 Create table governorate
@@ -37,7 +37,11 @@ voterName varchar (20),
 voterFamilyName varchar (20),
 sex varchar (6)
 );
-
+create table candiVoter
+(
+candidateId number(3) references candidates(candidateId),
+voterId number(3) references voters(voterId)
+);
 
 Insert into governorate values
 (1,'Cairo');
