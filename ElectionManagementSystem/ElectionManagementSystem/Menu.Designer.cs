@@ -38,11 +38,11 @@ namespace ElectionManagementSystem
             this.candidatesInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.genderBiasedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.winnersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -75,14 +75,14 @@ namespace ElectionManagementSystem
             // voterInformationToolStripMenuItem
             // 
             this.voterInformationToolStripMenuItem.Name = "voterInformationToolStripMenuItem";
-            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.voterInformationToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.voterInformationToolStripMenuItem.Text = "Enter Information";
             this.voterInformationToolStripMenuItem.Click += new System.EventHandler(this.voterInformationToolStripMenuItem_Click);
             // 
             // voterInformationToolStripMenuItem1
             // 
             this.voterInformationToolStripMenuItem1.Name = "voterInformationToolStripMenuItem1";
-            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.voterInformationToolStripMenuItem1.Size = new System.Drawing.Size(201, 26);
             this.voterInformationToolStripMenuItem1.Text = "Voter Information";
             this.voterInformationToolStripMenuItem1.Click += new System.EventHandler(this.voterInformationToolStripMenuItem1_Click);
             // 
@@ -116,6 +116,21 @@ namespace ElectionManagementSystem
             this.winnersToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
             this.winnersToolStripMenuItem.Text = "Winners";
             this.winnersToolStripMenuItem.Click += new System.EventHandler(this.winnersToolStripMenuItem_Click);
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loginToolStripMenuItem});
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.adminToolStripMenuItem.Text = "Admin";
+            // 
+            // loginToolStripMenuItem
+            // 
+            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
+            this.loginToolStripMenuItem.Text = "Login";
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -151,21 +166,6 @@ namespace ElectionManagementSystem
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // adminToolStripMenuItem
-            // 
-            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem});
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
-            this.adminToolStripMenuItem.Text = "Admin";
-            // 
-            // loginToolStripMenuItem
-            // 
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.loginToolStripMenuItem.Text = "Login";
-            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -177,6 +177,7 @@ namespace ElectionManagementSystem
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
