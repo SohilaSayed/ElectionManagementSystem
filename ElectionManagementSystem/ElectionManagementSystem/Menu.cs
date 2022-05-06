@@ -45,7 +45,7 @@ namespace ElectionManagementSystem
 
         private void searchByGovernorateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
+            Form3 f = new Form3();
             f.Show();
         }
 

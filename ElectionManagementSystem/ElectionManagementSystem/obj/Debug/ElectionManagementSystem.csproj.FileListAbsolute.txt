@@ -54,3 +54,4 @@ C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManage
 D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
 D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
 D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
+D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
