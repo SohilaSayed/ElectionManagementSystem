@@ -70,5 +70,11 @@ namespace ElectionManagementSystem
             winnerForm f = new winnerForm();
             f.Show();
         }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+        }
     }
 }

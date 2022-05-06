@@ -22,6 +22,7 @@ namespace ElectionManagementSystem
             if (textBox1.Text == "admin" && textBox2.Text == "admin") {
                 Form2 f = new Form2();
                 f.Show();
+                this.Hide();
             }
         }
 

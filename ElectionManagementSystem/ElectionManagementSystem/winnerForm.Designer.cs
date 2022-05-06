@@ -66,7 +66,7 @@ namespace ElectionManagementSystem
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(173, 177);
+            this.textBox3.Location = new System.Drawing.Point(174, 177);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(159, 22);
             this.textBox3.TabIndex = 6;
@@ -76,14 +76,14 @@ namespace ElectionManagementSystem
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(174, 79);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(158, 24);
             this.comboBox1.TabIndex = 7;
             // 
             // winnerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 450);
+            this.ClientSize = new System.Drawing.Size(446, 389);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button1);
