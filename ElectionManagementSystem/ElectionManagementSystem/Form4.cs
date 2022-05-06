@@ -13,7 +13,7 @@ namespace ElectionManagementSystem
 {
     public partial class Form4 : Form
     {
-        string ordb = "Data Source =ORCL; User Id=scott;Password=scott;";
+        string ordb = "Data Source =ORCL; User Id=scott;Password=tiger;";
         OracleConnection conn;
         public Form4()
         {

@@ -35,7 +35,7 @@ namespace ElectionManagementSystem
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string ordb = "Data source=orcl;User Id=scott;Password=scott;";
+            string ordb = "Data source=orcl;User Id=scott;Password=tiger;";
 
             string cmdstr = "Select candidateId,candidateName,candidateFamilyName,governorateName , cityName from candidates s where s.governorateName =:n ";
             adapter = new OracleDataAdapter(cmdstr, ordb);
