@@ -45,7 +45,7 @@ namespace ElectionManagementSystem
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.HotPink;
+            this.checkBox3.BackColor = System.Drawing.Color.Pink;
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.checkBox3.Location = new System.Drawing.Point(130, 166);
             this.checkBox3.Name = "checkBox3";
@@ -107,7 +107,7 @@ namespace ElectionManagementSystem
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.HotPink;
+            this.button3.BackColor = System.Drawing.Color.Pink;
             this.button3.Location = new System.Drawing.Point(86, 215);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 34);

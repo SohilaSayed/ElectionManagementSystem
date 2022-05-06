@@ -100,20 +100,21 @@ namespace ElectionManagementSystem
             // candidatesInformationToolStripMenuItem
             // 
             this.candidatesInformationToolStripMenuItem.Name = "candidatesInformationToolStripMenuItem";
-            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
+            this.candidatesInformationToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.candidatesInformationToolStripMenuItem.Text = "Candidates Information";
             this.candidatesInformationToolStripMenuItem.Click += new System.EventHandler(this.candidatesInformationToolStripMenuItem_Click);
             // 
             // genderBiasedToolStripMenuItem
             // 
             this.genderBiasedToolStripMenuItem.Name = "genderBiasedToolStripMenuItem";
-            this.genderBiasedToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
-            this.genderBiasedToolStripMenuItem.Text = "Gender Biased";
+            this.genderBiasedToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
+            this.genderBiasedToolStripMenuItem.Text = "Category by Governorate";
+            this.genderBiasedToolStripMenuItem.Click += new System.EventHandler(this.genderBiasedToolStripMenuItem_Click);
             // 
             // winnersToolStripMenuItem
             // 
             this.winnersToolStripMenuItem.Name = "winnersToolStripMenuItem";
-            this.winnersToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
+            this.winnersToolStripMenuItem.Size = new System.Drawing.Size(248, 26);
             this.winnersToolStripMenuItem.Text = "Winners";
             this.winnersToolStripMenuItem.Click += new System.EventHandler(this.winnersToolStripMenuItem_Click);
             // 

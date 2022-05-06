@@ -122,7 +122,7 @@ namespace ElectionManagementSystem {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_CANDIDATES_ID_PARAMETER {
+        public CrystalDecisions.Shared.IParameterField Parameter_CANDIDATES_ID_PARAMETERS {
             get {
                 return this.DataDefinition.ParameterFields[0];
             }

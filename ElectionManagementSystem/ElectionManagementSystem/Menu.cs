@@ -40,7 +40,8 @@ namespace ElectionManagementSystem
 
         private void candidatesInformationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form5 f = new Form5();
+            f.Show();
         }
 
         private void searchByGovernorateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -74,6 +75,12 @@ namespace ElectionManagementSystem
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 f = new Form3();
+            f.Show();
+        }
+
+        private void genderBiasedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form6 f = new Form6();
             f.Show();
         }
     }

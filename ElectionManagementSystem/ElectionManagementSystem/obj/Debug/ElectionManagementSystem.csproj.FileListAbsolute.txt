@@ -95,3 +95,24 @@ C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\E
 C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
 C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
 >>>>>>> Stashed changes
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form5.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\stdole.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form6.resources

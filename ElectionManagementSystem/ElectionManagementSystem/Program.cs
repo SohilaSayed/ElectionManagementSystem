@@ -16,11 +16,8 @@ namespace ElectionManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< Updated upstream
+
             Application.Run(new Menu());
-=======
-            Application.Run(new Form4());
->>>>>>> Stashed changes
         }
     }
 }
