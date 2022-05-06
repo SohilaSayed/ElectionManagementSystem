@@ -37,9 +37,9 @@ namespace ElectionManagementSystem
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(493, 93);
+            this.button1.Location = new System.Drawing.Point(474, 90);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 36);
+            this.button1.Size = new System.Drawing.Size(196, 36);
             this.button1.TabIndex = 0;
             this.button1.Text = "CANDIDATES_REPORT";
             this.button1.UseVisualStyleBackColor = true;
