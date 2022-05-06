@@ -7,22 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-<<<<<<< Updated upstream
 using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
-=======
-using CrystalDecisions.Shared;
->>>>>>> Stashed changes
+
+
 namespace ElectionManagementSystem
 {
     public partial class Form4 : Form
     {
-<<<<<<< Updated upstream
+
         string ordb = "Data Source =ORCL; User Id=scott;Password=tiger;";
         OracleConnection conn;
-=======
-        CrystalReport2 CR;
->>>>>>> Stashed changes
+
         public Form4()
         {
             InitializeComponent();
@@ -30,7 +26,7 @@ namespace ElectionManagementSystem
 
         private void Form4_Load(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
+
             conn = new OracleConnection(ordb);
             conn.Open();
 
@@ -90,17 +86,10 @@ namespace ElectionManagementSystem
         {
 
             this.Close();
-=======
-            CR = new CrystalReport2();
-            foreach (ParameterDiscreteValue i in CR.ParameterFields[0].DefaultValues)
-                comboBox1.Items.Add(i.Value);
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            CR.SetParameterValue(0, comboBox1.Text);
-            crystalReportViewer1.ReportSource = CR;
->>>>>>> Stashed changes
-        }
+       
+        
     }
 }
