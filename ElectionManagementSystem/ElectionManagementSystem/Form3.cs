@@ -24,5 +24,31 @@ namespace ElectionManagementSystem
                 f.Show();
             }
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true )
+            {
+
+                textBox2.UseSystemPasswordChar = false;
+            }
+            else
+            {
+
+                textBox2.UseSystemPasswordChar = true;
+
+            }
+
+        }
     }
 }
