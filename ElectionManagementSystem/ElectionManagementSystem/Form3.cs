@@ -17,39 +17,64 @@ namespace ElectionManagementSystem
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        
+
+        private void Form3_Load_1(object sender, EventArgs e)
         {
-            if (textBox1.Text == "admin" && textBox2.Text == "admin") {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox5.Text == "admin" && textBox6.Text == "admin")
+            {
                 Form2 f = new Form2();
                 f.Show();
                 this.Hide();
             }
+
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true )
+
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == true )
             {
 
-                textBox2.UseSystemPasswordChar = false;
+                textBox6.UseSystemPasswordChar =false;
             }
             else
             {
 
-                textBox2.UseSystemPasswordChar = true;
+                textBox6.UseSystemPasswordChar = true;
 
             }
-
         }
     }
 }

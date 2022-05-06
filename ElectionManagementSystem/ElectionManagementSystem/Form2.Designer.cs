@@ -44,9 +44,10 @@ namespace ElectionManagementSystem
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(94, 47);
+            this.label1.Location = new System.Drawing.Point(70, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 20);
+            this.label1.Size = new System.Drawing.Size(126, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Governorate";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -54,10 +55,10 @@ namespace ElectionManagementSystem
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 130);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(99, 106);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 34);
+            this.button1.Size = new System.Drawing.Size(55, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,20 +67,20 @@ namespace ElectionManagementSystem
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 227);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 184);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(784, 402);
+            this.dataGridView1.Size = new System.Drawing.Size(588, 327);
             this.dataGridView1.TabIndex = 5;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(68, 89);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(51, 72);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 22);
+            this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 11;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
@@ -88,9 +89,11 @@ namespace ElectionManagementSystem
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(236, 22);
+            this.groupBox1.Location = new System.Drawing.Point(177, 18);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(340, 190);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(255, 154);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             // 
@@ -98,9 +101,10 @@ namespace ElectionManagementSystem
             // 
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button3.Location = new System.Drawing.Point(454, 664);
+            this.button3.Location = new System.Drawing.Point(340, 540);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 38);
+            this.button3.Size = new System.Drawing.Size(103, 31);
             this.button3.TabIndex = 33;
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = false;
@@ -110,9 +114,10 @@ namespace ElectionManagementSystem
             // 
             this.button4.BackColor = System.Drawing.Color.Lime;
             this.button4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button4.Location = new System.Drawing.Point(206, 664);
+            this.button4.Location = new System.Drawing.Point(154, 540);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(137, 38);
+            this.button4.Size = new System.Drawing.Size(103, 31);
             this.button4.TabIndex = 32;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = false;
@@ -120,15 +125,16 @@ namespace ElectionManagementSystem
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 733);
+            this.ClientSize = new System.Drawing.Size(608, 596);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);

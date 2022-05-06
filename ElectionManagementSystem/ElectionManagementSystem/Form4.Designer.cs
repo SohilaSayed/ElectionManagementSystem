@@ -47,9 +47,10 @@ namespace ElectionManagementSystem
             // 
             this.button1.BackColor = System.Drawing.Color.Lime;
             this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Location = new System.Drawing.Point(62, 361);
+            this.button1.Location = new System.Drawing.Point(46, 293);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 38);
+            this.button1.Size = new System.Drawing.Size(103, 31);
             this.button1.TabIndex = 27;
             this.button1.Text = "Update";
             this.button1.UseVisualStyleBackColor = false;
@@ -57,95 +58,106 @@ namespace ElectionManagementSystem
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(152, 239);
+            this.textBox3.Location = new System.Drawing.Point(114, 194);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(161, 22);
+            this.textBox3.Size = new System.Drawing.Size(122, 20);
             this.textBox3.TabIndex = 23;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(152, 187);
+            this.textBox2.Location = new System.Drawing.Point(114, 152);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(161, 22);
+            this.textBox2.Size = new System.Drawing.Size(122, 20);
             this.textBox2.TabIndex = 22;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(59, 294);
+            this.label6.Location = new System.Drawing.Point(44, 239);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label6.Size = new System.Drawing.Size(95, 17);
+            this.label6.Size = new System.Drawing.Size(72, 13);
             this.label6.TabIndex = 20;
             this.label6.Text = "Candidate id :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(59, 242);
+            this.label4.Location = new System.Drawing.Point(44, 197);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 17);
+            this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Gender :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 135);
+            this.label3.Location = new System.Drawing.Point(44, 110);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 17);
+            this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "First Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 190);
+            this.label2.Location = new System.Drawing.Point(44, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 17);
+            this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 17;
             this.label2.Text = "Last Name :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 73);
+            this.label1.Location = new System.Drawing.Point(44, 59);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 17);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 16;
             this.label1.Text = "National Id :";
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(152, 70);
+            this.comboBox2.Location = new System.Drawing.Point(114, 57);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 24);
+            this.comboBox2.Size = new System.Drawing.Size(119, 21);
             this.comboBox2.TabIndex = 28;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(152, 132);
+            this.textBox1.Location = new System.Drawing.Point(114, 107);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(161, 22);
+            this.textBox1.Size = new System.Drawing.Size(122, 20);
             this.textBox1.TabIndex = 29;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(152, 291);
+            this.textBox4.Location = new System.Drawing.Point(114, 236);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(161, 22);
+            this.textBox4.Size = new System.Drawing.Size(122, 20);
             this.textBox4.TabIndex = 30;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button2.Location = new System.Drawing.Point(295, 361);
+            this.button2.Location = new System.Drawing.Point(221, 293);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 38);
+            this.button2.Size = new System.Drawing.Size(103, 31);
             this.button2.TabIndex = 31;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
@@ -153,9 +165,9 @@ namespace ElectionManagementSystem
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 450);
+            this.ClientSize = new System.Drawing.Size(380, 366);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox1);
@@ -168,7 +180,9 @@ namespace ElectionManagementSystem
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update Form";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);

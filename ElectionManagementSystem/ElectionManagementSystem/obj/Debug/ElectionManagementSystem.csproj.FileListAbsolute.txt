@@ -56,3 +56,6 @@ D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\Electio
 D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
 D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
+C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
+C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
+C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources

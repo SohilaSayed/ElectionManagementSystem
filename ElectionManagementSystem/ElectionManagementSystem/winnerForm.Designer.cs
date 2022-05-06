@@ -39,26 +39,29 @@ namespace ElectionManagementSystem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(54, 82);
+            this.label1.Location = new System.Drawing.Point(40, 67);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 17);
+            this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Candidate Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 177);
+            this.label2.Location = new System.Drawing.Point(40, 144);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 17);
+            this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Number of Votes";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(152, 312);
+            this.button1.Location = new System.Drawing.Point(114, 254);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 31);
+            this.button1.Size = new System.Drawing.Size(104, 25);
             this.button1.TabIndex = 2;
             this.button1.Text = "Show";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,30 +69,34 @@ namespace ElectionManagementSystem
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(174, 177);
+            this.textBox3.Location = new System.Drawing.Point(130, 144);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 22);
+            this.textBox3.Size = new System.Drawing.Size(120, 20);
             this.textBox3.TabIndex = 6;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(174, 79);
+            this.comboBox1.Location = new System.Drawing.Point(130, 64);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(158, 24);
+            this.comboBox1.Size = new System.Drawing.Size(120, 21);
             this.comboBox1.TabIndex = 7;
             // 
             // winnerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(446, 389);
+            this.ClientSize = new System.Drawing.Size(334, 316);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "winnerForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "winnerForm";
             this.Load += new System.EventHandler(this.winnerForm_Load);
             this.ResumeLayout(false);
