@@ -1,9 +1,11 @@
-drop table candidateVoter;
-drop table voters;
-drop table candidates;
-drop table city;
-drop table governorate;
-drop table nominating;
+create or replace
+PROCEDURE WINNER (numOfVotes out number )
+AS
+BEGIN
+ select max(numberofvoters) into numofvotes
+ from candidates;
+END WINNER;
+
 
 
 Create table governorate

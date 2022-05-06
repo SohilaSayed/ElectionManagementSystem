@@ -10,23 +10,19 @@ using System.Windows.Forms;
 using Oracle.DataAccess.Client;
 using Oracle.DataAccess.Types;
 
-
 namespace ElectionManagementSystem
 {
-    public partial class Form4 : Form
+    public partial class Form7 : Form
     {
-
         string ordb = "Data Source =ORCL; User Id=scott;Password=tiger;";
         OracleConnection conn;
-
-        public Form4()
+        public Form7()
         {
             InitializeComponent();
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e)
         {
-
             conn = new OracleConnection(ordb);
             conn.Open();
 
@@ -41,11 +37,6 @@ namespace ElectionManagementSystem
                 comboBox2.Items.Add(drr[0]);
             }
             drr.Close();
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -66,6 +57,7 @@ namespace ElectionManagementSystem
 
             dr.Close();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             OracleCommand cc = new OracleCommand();
@@ -84,12 +76,7 @@ namespace ElectionManagementSystem
 
         private void button2_Click(object sender, EventArgs e)
         {
-
             this.Close();
-
         }
-
-
-
     }
 }

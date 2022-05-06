@@ -1,104 +1,13 @@
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\Oracle.DataAccess.dll
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.SuggestedBindingRedirects.cache
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
-C:\Users\Dell\source\repos\election\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.AssemblyReference.cache
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.SuggestedBindingRedirects.cache
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
-C:\Users\Dell\Source\Repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
-C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
-D:\College\4th sem\Software Engineernig\Project\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
-<<<<<<< Updated upstream
-C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
-C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
-C:\Users\Dell\source\repos\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
-=======
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe.config
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.exe
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ElectionManagementSystem.pdb
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csprojAssemblyReference.cache
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportSource.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Shared.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\FlashControlV71.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\stdole.dll
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
-C:\Users\hp\Documents\GitHub\ElectionManagementSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form4.resources
->>>>>>> Stashed changes
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form5.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\AxShockwaveFlashObjects.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\Oracle.DataAccess.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -110,9 +19,19 @@ C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManage
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\stdole.dll
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\AxShockwaveFlashObjects.dll
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form1.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form2.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form3.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form5.resources
 C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form6.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Form7.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Menu.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.Properties.Resources.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.winnerForm.resources
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.GenerateResource.cache
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.csproj.CopyComplete
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.exe
+C:\Users\LTC\source\repos\ElectionSystem\ElectionManagementSystem\ElectionManagementSystem\obj\Debug\ElectionManagementSystem.pdb

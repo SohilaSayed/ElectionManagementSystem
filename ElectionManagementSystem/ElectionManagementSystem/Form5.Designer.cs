@@ -84,6 +84,7 @@ namespace ElectionManagementSystem
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.button1);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
